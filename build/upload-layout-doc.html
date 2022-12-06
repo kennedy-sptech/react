@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+
+  <p>Click on the "Choose File" button to upload a file:</p>
+
+  <form action="/">
+    <input type="file" id="myFile" name="filename">
+    <button type="button" onclick="txt()">Enviar</button>
+  </form>
+
+</body>
+
+</html>
+
+<script>
+
+  function txt() {
+    var input = document.querySelector('input[type="file"]')
+
+    var data = new FormData()
+    data.append('txt', input.files[0])
+
+    fetch('http://localhost:8080/usuarios/gravar-txt', {
+      method: 'POST',
+      body: data
+    })
+  }
+
+</script>
