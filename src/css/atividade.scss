@@ -1,0 +1,78 @@
+.atividades .pAtividade {
+    margin: 15px 0px 20px 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1C2438;
+}
+
+.container-atividade {
+    margin-top: 3%;
+    font-size: 11px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    color: #1C2438;
+
+    .conteudo-dados {
+        display: flex;
+        align-items: flex-start;
+
+        .nome {
+            font-weight: 600;
+            margin: 0;
+            font-size: 12px;
+        }
+
+        .mensagem {
+            margin: 0;
+            padding-top: 1%;
+        }
+
+        .avatar {
+            margin-right: 5px;
+        }
+
+
+        .hora-atividade {
+            margin: 0;
+            color: #9597A1;
+        }
+
+    }
+
+
+    .conteudo-dados img {
+        width: auto;
+        height: 35px;
+    }
+
+    .conteudo-dados p {
+        text-align: start;
+    }
+
+}
+
+
+@media (max-width:850px) {
+
+    .atividades{
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width:1120px) {
+
+    .atividades .pAtividade {
+        margin: 15px 0px 10px 15px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #1C2438;
+    }
+    
+    .avatar {
+        display: none;
+    }
+}

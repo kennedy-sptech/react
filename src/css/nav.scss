@@ -1,0 +1,292 @@
+@media (min-width:900px) {
+
+    .nav-container {
+        width: 100%;
+        background: #1C2438;
+        /* position:fixed; */
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            color: aliceblue;
+            padding-top: 5px;
+            width: 70.4%;
+            margin: 0 auto;
+            // background-color: #000c0e;
+
+            .mobile {
+                display: none;
+            }
+
+            .max {
+                display: flex;
+            }
+        }
+
+        .nav p {
+            font-size: 13px;
+            margin: 0;
+        }
+
+        .nav .p-sub {
+            font-size: 12px;
+            color: #63B1BC;
+            font-weight: 700;
+        }
+
+        .nav .dados-usuario {
+            display: inline-block;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        .nav .logosptec {
+            max-height: 34px;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+        }
+
+        .icons img {
+            margin-left: 20px;
+        }
+
+        .nav-rigth {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+           
+            .dados-usuario{
+                align-items: center;
+                padding-top: 4px;
+                
+              
+            }
+        }
+
+        .fotousuario {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .forum {
+            width: 130px;
+            margin-right: 25px;
+            // margin-left: 10px;
+        }
+
+        .seta {
+            padding-right: 15px;
+            border-right: 1.5px solid white;
+
+        }
+
+        .dados-foto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:900px) {
+
+    .nav-container {
+        width: 100%;
+        background: #1C2438;
+        /* position:fixed; */
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            color: aliceblue;
+            padding: 5px;
+            width: 90%;
+            margin: 0 auto;
+
+            .mobile {
+                display: none;
+            }
+
+            .max {
+                display: block;
+            }
+
+        }
+
+        .nav p {
+            font-size: 13px;
+            margin: 0;
+        }
+
+        .nav .p-sub {
+            font-size: 12px;
+            color: #63B1BC;
+            font-weight: 700;
+        }
+
+        .nav .dados-usuario {
+            display: inline-block;
+            text-align: right;
+            margin-right: 15px;
+        }
+
+        .nav .logosptec {
+            max-height: 34px;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .icons img {
+            margin-left: 20px;
+        }
+
+        .nav-rigth {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .fotousuario {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .forum {
+            width: 130px;
+            margin-right: 25px;
+            margin-left: 10px;
+        }
+
+        .seta {
+            padding-right: 15px;
+            border-right: 1.5px solid white;
+
+        }
+
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .nav-container {
+        width: 100%;
+        background: #1C2438;
+
+        /* position:fixed; */
+
+        .nav {
+            display: block;
+            color: aliceblue;
+            padding: 5px;
+            padding-left: 4%;
+            width: 90%;
+            padding-right: 5%;
+            // margin: 0 auto;
+
+
+            p {
+                font-size: 13px;
+                margin: 0;
+            }
+
+            .p-sub {
+                font-size: 12px;
+                color: #63B1BC;
+                font-weight: 700;
+            }
+
+            .dados-usuario {
+                display: inline-block;
+                text-align: left;
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+
+            .logosptec {
+                max-height: 34px;
+            }
+
+            .max {
+                display: none;
+            }
+
+
+        }
+
+
+        .logos {
+            margin: 0;
+            display: none;
+
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .icons img {
+            margin-left: 20px;
+        }
+
+        .nav-rigth {
+            display: flex;
+            margin-right: 10px;
+            margin: 10px 0;
+            padding-right: 5%;
+            justify-content: space-between;
+
+        }
+
+        .fotousuario {
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+        }
+
+        .forum {
+            width: 130px;
+            margin-right: 25px;
+            margin-left: 10px;
+        }
+
+        .seta {
+            padding-right: 15px;
+            border-right: 1.5px solid white;
+
+        }
+
+    }
+
+}

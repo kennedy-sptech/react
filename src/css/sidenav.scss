@@ -1,0 +1,41 @@
+.sidenav{
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+    margin-left: 9%;
+    height:fit-content;
+    padding: 8px 0;
+}
+
+.sidenav-mderador{
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+    margin-left: 9%;
+}
+
+@media (max-width:900px) {
+    .sidenav{
+        margin-left: 12%;
+    }
+   
+}
+
+@media (max-width:600px) {
+    
+    .sidenav{
+        width: 65%;
+        height: 75%;
+        margin-left: 20%;
+
+        span{
+            display: none;
+        }
+    }
+
+    
+
+    
+}

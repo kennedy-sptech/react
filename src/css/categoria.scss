@@ -1,0 +1,41 @@
+.categorias{
+    /* background-color: aquamarine; */
+    display:flex;
+    width: 101%;
+}
+
+.categoria{
+    font-family: 'Nunito Sans';
+    width: 21%;
+    font-weight: 700;
+    border-radius: 8px 8px;
+    background-color: rgb(255, 255, 255); 
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 30px;
+    height: auto;
+    font-size: 10px;
+    color:#7B7C92;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+}
+
+.categoria:hover{
+    font-family: 'Nunito Sans';
+    width: 21%;
+    font-weight: 700;
+    border-radius: 8px 8px;
+    background-color: #1C2438;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 30px;
+    height: auto;
+    font-size: 10px;
+    color:#ffffff;
+    cursor: pointer;
+    // color: #63B1BC;
+    transition: .25s;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+}

@@ -1,0 +1,9 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/5863d001-aec6-44e7-9c9a-c0c6ec9ce76c/microsoft.web/sites/subscriptions/5863d001-aec6-44e7-9c9a-c0c6ec9ce76c/resourceGroups/studentON/providers/Microsoft.Web/sites/forumsptech",
+    "appService.deploySubpath": "build",
+    "appService.showBuildDuringDeployPrompt": false
+}

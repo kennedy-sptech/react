@@ -1,0 +1,148 @@
+.Comentario{
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1em;
+  margin-bottom: 8px;
+  // padding-bottom: 20px;
+  width: 95%;
+  color: #2F2E41;
+  border-bottom: 2px solid #cccccc;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+
+  img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+  }
+
+  h3{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  p{
+    font-weight: 250;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+}
+
+.Comentario:hover {
+    background-color: #cce5ff;
+}
+
+.detalhes-comentario{
+    // display: flex;
+}
+
+
+.avatar {
+  max-width: 50px;
+  max-height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+}
+
+.Comentario .conteudo {
+    margin-left: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.Comentario .detalhes-comentario .nome {
+    font-size: 1rem;
+    margin: .5rem 0 .25rem 0;
+    color: #2d3748;
+    margin: 0;
+}
+
+.Comentario .conteudo .mensagem {
+    color: #4a5568;
+    margin: .5rem 0;
+}
+
+.Comentario .data {
+    text-align: right;
+    color: #718096;
+    font-size: .75rem;
+    margin: 0;
+}
+
+.Comentario .data-cont{
+    display: flex;
+    margin: 0;
+    align-items: baseline;
+}
+
+.conteudo-comentario{
+    padding-top: 1%;
+}
+
+.Comentario .conteudo button {
+    position: absolute;
+    top: -75px;
+    right: -5px;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+}
+
+.Novo-Comentario{
+  border-radius: .5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  padding: 1rem;
+  padding-bottom: 8%;
+  background-color: #fff;
+  // margin-bottom: 3rem;
+  display: block;
+}
+  
+  .Novo-Comentario h2 {
+    margin: 0;
+    font-weight: 600;
+    color: #2F2E41;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  
+  .Novo-Comentario input, .Novo-Comentario textarea {
+    color: #4a5568;
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    font-size: 1rem;
+    margin: .5rem 0;
+    display: block;
+    border-radius: .5rem;
+  }
+  
+  .Novo-Comentario input {
+    width: 300px;
+   
+  }
+  
+  .Novo-Comentario textarea {
+    width: 99%;
+    margin-bottom: 10px;
+  }
+  
+  .Novo-Comentario button {
+    background-color: #1C2438;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: none;
+  }
+  
+  .Novo-Comentario button:hover {
+    background-color: #63b2bc98;
+  }
+
+  .addcomentario{
+    // background-color: aqua;
+    display: flex;
+    justify-items: flex-end;
+    // position: absolute;
+    float: right;
+  }

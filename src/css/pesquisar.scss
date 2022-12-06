@@ -1,0 +1,81 @@
+.btn-pesquisar{
+    /* background-color: blue; */
+    width:80%;
+    display: flex;
+
+}
+
+.btn-pesquisar input {
+    height: 43px;
+    width: 90.5%;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+}
+
+.btn-pesquisar button {
+    height: 45px;
+    background-color: #63B1BC;
+    border-radius: 0 10px 10px 0;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+    margin-right: 10px;
+}
+
+@media (max-width:900px){
+
+    .btn-pesquisar{
+        /* background-color: blue; */
+        width:90%;
+        display: flex;
+    
+    }
+    
+    .btn-pesquisar input {
+        height: 43px;
+        width: 90.5%;
+        border-radius: 10px 0 0 10px;
+        border: none;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+    }
+    
+    .btn-pesquisar button {
+        height: 45px;
+        background-color: #63B1BC;
+        border-radius: 0 10px 10px 0;
+        padding: 5px 10px;
+        border: none;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:600px){
+ 
+    .btn-pesquisar{
+        /* background-color: blue; */
+        width:100%;
+        display: flex;
+    
+    }
+    
+    .btn-pesquisar input {
+        height: 43px;
+        width: 90.5%;
+        border-radius: 10px 0 0 10px;
+        border: none;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+    }
+    
+    .btn-pesquisar button {
+        height: 45px;
+        background-color: #63B1BC;
+        border-radius: 0 10px 10px 0;
+        padding: 5px 10px;
+        border: none;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+        margin-right: 10px;
+    }
+  
+}
